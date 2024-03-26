@@ -1,58 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="100dp"
-    android:background="@color/cyan"
+    android:layout_height="wrap_content"
     android:layout_marginTop="20dp"
-    xmlns:tools="http://schemas.android.com/tools">
-
+    android:background="@color/cyan"
+    android:padding="3dp">
 
     <ImageView
+        android:id="@+id/foto"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:id="@+id/foto"
-        android:layout_marginRight="10dp"
         android:layout_centerVertical="true"
-        />
+        android:layout_marginEnd="10dp" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/name"
+        android:fontFamily="@font/protes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_toEndOf="@id/foto"
         android:textColor="@color/black"
-        android:textSize="20dp"
-        tools:text="Name"/>
+        android:textSize="20dp" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/nim"
-        android:textSize="18dp"
-        android:layout_toEndOf="@id/foto"
+        android:fontFamily="@font/protes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/name"
+        android:layout_toEndOf="@id/foto"
         android:textColor="@color/black"
-        tools:text="NIM"/>
-
+        android:textSize="18dp"
+        />
 
     <TextView
         android:id="@+id/kelas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/nim"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="3dp"
         android:layout_toEndOf="@id/foto"
-        android:text="Kelas"
+        android:fontFamily="@font/protes"
         android:textColor="@color/black"
         android:textSize="15dp" />
 
-    <LinearLayout
+    <View
+        android:id="@+id/divider"
         android:layout_width="match_parent"
-        android:layout_height="3dp"
+        android:layout_height="4dp"
         android:layout_below="@id/foto"
-        android:layout_marginTop="30dp"
-        android:background="#DAD8D8" />
-
+        android:layout_marginTop="40dp"
+        android:background="@color/biru1"/>
 
 </RelativeLayout>

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.RycleView"
         tools:targetApi="31">
         <activity
+            android:name=".informasi"
+            android:exported="false" />
+        <activity
             android:name=".atribut"
             android:exported="false" />
         <activity

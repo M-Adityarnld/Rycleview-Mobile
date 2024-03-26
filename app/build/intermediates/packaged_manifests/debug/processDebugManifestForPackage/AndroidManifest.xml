@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.RycleView" >
         <activity
+            android:name="com.example.rycleview.informasi"
+            android:exported="false" />
+        <activity
             android:name="com.example.rycleview.atribut"
             android:exported="false" />
         <activity

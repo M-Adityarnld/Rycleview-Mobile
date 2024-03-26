@@ -1354,6 +1354,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color biru1
 color black
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
@@ -3094,6 +3095,9 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable zaki
+font fjala
+font imba
+font protes
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3170,6 +3174,7 @@ id aligned
 id all
 id allStates
 id always
+id angkatan
 id animateToEnd
 id animateToStart
 id antiClockwise
@@ -3251,6 +3256,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id divider
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3539,6 +3545,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id tanggallahir
 id text
 id text2
 id textEnd
@@ -3708,6 +3715,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_informasi
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item
